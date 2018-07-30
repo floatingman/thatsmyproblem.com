@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [staging]
-thatsmyproblem.com
+staging.thatsmyproblem.com
 
 [web]
-thatsmyproblem.com
+staging.thatsmyproblem.com
