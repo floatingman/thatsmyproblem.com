@@ -9,13 +9,13 @@ wordpress_sites:
         # redirects:
         #   - otherdomain.com
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/thatsmyproblem.com.git # replace with your Git repo URL
+    repo: git@github.com:floatingman/thatsmyproblem.com.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: trueOA
       provider: letsencrypt
     cache:
       enabled: false
